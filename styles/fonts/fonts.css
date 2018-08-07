@@ -1,0 +1,19 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeue.ttf');
+}
+
+@font-face {
+  font-family: OpenSansR;
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSansL;
+  src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: Courgette;
+  src: url('../fonts/Courgette/Courgette-Regular.ttf');
+}

@@ -1,0 +1,227 @@
+body {
+  font: 14px/21px OpenSansR;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-family: OpenSansR;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header */
+
+.logo {
+  width: 25px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.hamburgerIcon {
+  width: 25px;
+}
+
+.navbar {
+  background: #FDFDFD;
+  font-family: OpenSansL;
+  font-size: 16px;
+}
+
+header hr {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  background-color: #1A1A1A;
+}
+
+.nav-item .nav-link::after {
+  display: block;
+  content: " ";
+  width: 200px;
+  margin: 15px auto 15px;
+  border-top: 0.8px solid #1A1A1A;
+}
+
+.icon-bar {
+  background-color: #1A1A1A;
+  width: 20px;
+}
+
+.cross {
+  display: none;
+  width: 15px;
+}
+
+.someIcons a {
+  width: 30px;
+}
+
+/* ---------------------------- homePage ---------------------------- */
+
+/* HomeSection  */
+
+#homePage {
+  padding-top: 30%;
+}
+
+#homePage .section1 {
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1532938063/genadi/homePage/genadi.png');
+  background-size: cover;
+}
+
+#homePage .section1 h1 {
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+  width: 80%;
+}
+
+#homePage .section1 .homeText {
+  width: 55%;
+}
+
+#homePage .section1 h1 .smaller {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.2rem;
+}
+
+#homePage .section1 p {
+  font-size: 1.5rem;
+  font-family: OpenSansL;
+  letter-spacing: 0.05rem;
+  line-height: 2.2rem;
+}
+
+/* projectsSection */
+
+#projectsSection {
+  height: 300px;
+  margin-top: 25%;
+}
+
+#projectsSection .projectItem .projectText {
+  position: absolute;
+  bottom: 0;
+  margin-left: 8%;
+}
+
+#projectsSection .projectItem {
+  margin: 0.5%;
+  border-radius: 15px;
+}
+
+#projectsSection .projectItem h4 {
+  font-family: HelveticaNeue;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #F7F7F7;
+}
+
+#projectsSection .projectItem p {
+  font-family: HelveticaNeue;
+  font-size: 1rem;
+  color: #8F7E4F;
+}
+
+#projectsSection .projectItem1 {
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/mashmo_clothing.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#projectsSection .projectItem2 {
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/vasilena.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#projectsSection .projectItem2 h4 {
+  color: #141414;
+}
+
+#projectsSection .projectItem3 {
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/personal_portfolio.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.slick-slide {
+  transition: all 0.8s ease-in;
+  transform: scale(0.9);
+}
+
+.slick-current {
+  transform: scale(1);
+}
+
+#projectsSection .projectLink {
+  font-size: 1.2rem;
+  color: #8F7E4F;
+  letter-spacing: 0.15rem;
+}
+
+/* testimonialsSection */
+
+#testimonialsSection {
+  margin-top: 33%;
+  padding-top: 7%;
+  background-color: #FDFDFD;
+  height: 500px;
+  padding-bottom:10%;
+}
+
+#testimonialsSection .testimonialHeading p{
+  color: #8F7E4F;
+}
+
+#testimonialsSection .testimonialHeading h4{
+  color: #141414;
+}
+
+#testimonialsSection .testimonialText p{
+  color: #141414;
+}
+
+/* projectSection */
+
+/* #homePage .section1 h1 {
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+}
+
+#homePage .section1 .homeText {
+  width:150px;
+}
+
+#homePage .section1 h1 .smaller {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.2rem;
+}
+
+#homePage .section1 p {
+  font-size: 1.7rem;
+  font-family: OpenSansL;
+  letter-spacing: 0.05rem;
+  line-height: 2.2rem;
+} */
