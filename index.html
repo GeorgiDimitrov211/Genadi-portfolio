@@ -72,8 +72,8 @@
         <!-- end of section -->
       </div>
       <!-- end of home-section -->
-      <div id="projects-section">
-        <div id="projects-section--slick" class="mb-3">
+      <div class="projects-section">
+        <div class="projects-section--slick mb-3">
           <div class="projects-section__item projects-section__item1 position-relative">
             <div class="projects-section__item--text">
               <h4>Mashmo Clothing</h4>
@@ -100,8 +100,8 @@
         <a class="projects-section__item--link ml-4" href="projects.html">View my work &rarr;</a>
       </div>
       <!-- end of projects-section -->
-      <div id="testimonials-section" class="text-center">
-        <div id="testimonials-section--slick">
+      <div class="testimonials-section text-center">
+        <div class="testimonials-section--slick">
           <div class="testimonials-section__item testimonials-section__item1 p-4">
             <div class="testimonials-section__heading d-flex flex-column align-items-center mb-2">
               <img class="w-50 mb-3" src="https://res.cloudinary.com/dndvaqitq/image/upload/v1533112795/genadi/homePage/vasilena_picture.png">
@@ -151,11 +151,47 @@
         <!-- end of testimonialsSection-slick -->
       </div>
       <!-- end of testimonialsSection -->
+      <div class="contact-section text-center px-4">
+        <form class="contact-section__form" method="POST" action="https://formspree.io/genadidesign@gmail.com">
+          <h2>Write to me</h2>
+          <input type="hidden" name="_subject" value="E-mail from portfolio" />
+          <input type="hidden" name="_next" value="https://gdimitrovd.com/portfolio/filledForm.html" />
+          <input type="hidden" name="_language" value="en" />
+          <input type="text" name="Name" required placeholder="Your full name">
+          <input type="email" name="E-mail" required placeholder="Your e-mail">
+          <input type="text" name="Subject" required placeholder="Subject">
+          <textarea type="text" rows="6" name="Message" required placeholder="Message"></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+        <!-- end of form -->
+      </div>
+      <!-- end of contact-section -->
     </div>
     <!-- end of homepage -->
   </main>
-  <footer>
-    
+  <footer class="footer px-5">
+    <div class="footer__logo row justify-content-center pt-4 pb-5">
+      <a class="logo" href="index.html">
+        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532941359/genadi/homePage/icons/logo.png">
+      </a>
+    </div>
+    <div class="footer__text row justify-content-center text-center">
+      <p>If you like
+        <a href="projects.html">My work</a>, you can
+        <a href="contact.html">Contact me</a> and start working together.</p>
+    </div>
+    <div class="someIcons row justify-content-center align-items-center pt-4 pb-5">
+      <a href="https://www.behance.net/gdesignbg" class="m-2">
+        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/behance.png">
+      </a>
+      <a href="https://www.instagram.com/gdesignbg/" class="m-2">
+        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/instagram.png">
+      </a>
+    </div>
+    <div class="footer__copyright row justify-content-center text-center py-4 mx-3">
+      <p>Design by Genadi Georgiev
+        <br> Copyright 2018</p>
+    </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
