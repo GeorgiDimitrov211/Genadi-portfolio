@@ -13,7 +13,7 @@ $(document).ready(function () {
     cross.hide(500);
   });
   // Slider for projects
-  $('#projectsSection-slick').slick({
+  $('#projects-section--slick').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -38,7 +38,7 @@ $(document).ready(function () {
     ]
   });
   // Slider for testimonials
-  $('#testimonialsSection-slick').slick({
+  $('#testimonials-section--slick').slick({
     infinite: true,
     dots: true,
     slidesToShow: 1,

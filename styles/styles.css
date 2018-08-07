@@ -1,5 +1,7 @@
-body {
+body, html {
   font: 14px/21px OpenSansR;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 strong {
@@ -76,90 +78,90 @@ header hr {
   width: 30px;
 }
 
-/* ---------------------------- homePage ---------------------------- */
+/* ---------------------------- homepage ---------------------------- */
 
-/* HomeSection  */
+/* home-section  */
 
-#homePage {
+#homepage {
   padding-top: 30%;
 }
 
-#homePage .section1 {
+#homepage .section1 {
   background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1532938063/genadi/homePage/genadi.png');
   background-size: cover;
 }
 
-#homePage .section1 h1 {
+#homepage h1 {
   letter-spacing: 0.2rem;
   line-height: 3rem;
   width: 80%;
 }
 
-#homePage .section1 .homeText {
+.home-section__text {
   width: 55%;
 }
 
-#homePage .section1 h1 .smaller {
-  font-size: 1.7rem;
+.smaller {
+  font-size: 70%;
   letter-spacing: 0.1rem;
   line-height: 2.2rem;
 }
 
-#homePage .section1 p {
+#homepage .section1 p {
   font-size: 1.5rem;
   font-family: OpenSansL;
   letter-spacing: 0.05rem;
   line-height: 2.2rem;
 }
 
-/* projectsSection */
+/* projects-section */
 
-#projectsSection {
+#projects-section {
   height: 300px;
   margin-top: 25%;
 }
 
-#projectsSection .projectItem .projectText {
+.projects-section__item--text {
   position: absolute;
   bottom: 0;
   margin-left: 8%;
 }
 
-#projectsSection .projectItem {
+.projects-section__item {
   margin: 0.5%;
   border-radius: 15px;
 }
 
-#projectsSection .projectItem h4 {
+.projects-section__item h4 {
   font-family: HelveticaNeue;
   font-size: 1.1rem;
   font-weight: 300;
   color: #F7F7F7;
 }
 
-#projectsSection .projectItem p {
+.projects-section__item p {
   font-family: HelveticaNeue;
   font-size: 1rem;
   color: #8F7E4F;
 }
 
-#projectsSection .projectItem1 {
+.projects-section__item1 {
   background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/mashmo_clothing.jpg');
   background-position: center;
   background-size: cover;
 }
 
-#projectsSection .projectItem2 {
+.projects-section__item2 {
   background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/vasilena.jpg');
   background-position: center;
   background-size: cover;
 }
 
-#projectsSection .projectItem2 h4 {
+.projects-section__item2 h4 {
   color: #141414;
 }
 
-#projectsSection .projectItem3 {
+.projects-section__item3 {
   background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1533108351/genadi/homePage/personal_portfolio.jpg');
   background-position: center;
   background-size: cover;
@@ -174,15 +176,15 @@ header hr {
   transform: scale(1);
 }
 
-#projectsSection .projectLink {
+.projects-section__item--link {
   font-size: 1.2rem;
   color: #8F7E4F;
   letter-spacing: 0.15rem;
 }
 
-/* testimonialsSection */
+/* testimonials-section */
 
-#testimonialsSection {
+#testimonials-section {
   margin-top: 33%;
   padding-top: 7%;
   background-color: #FDFDFD;
@@ -190,36 +192,36 @@ header hr {
   padding-bottom:10%;
 }
 
-#testimonialsSection .testimonialHeading p{
+.testimonials-section__heading p{
   color: #8F7E4F;
 }
 
-#testimonialsSection .testimonialHeading h4{
+.testimonials-section__heading h4{
   color: #141414;
 }
 
-#testimonialsSection .testimonialText p{
+.testimonials-section__content p{
   color: #141414;
 }
 
 /* projectSection */
 
-/* #homePage .section1 h1 {
+/* #homepage .section1 h1 {
   letter-spacing: 0.2rem;
   line-height: 3rem;
 }
 
-#homePage .section1 .homeText {
+#homepage .section1 .home-section__text {
   width:150px;
 }
 
-#homePage .section1 h1 .smaller {
+#homepage .section1 h1 .smaller {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   line-height: 2.2rem;
 }
 
-#homePage .section1 p {
+#homepage .section1 p {
   font-size: 1.7rem;
   font-family: OpenSansL;
   letter-spacing: 0.05rem;
