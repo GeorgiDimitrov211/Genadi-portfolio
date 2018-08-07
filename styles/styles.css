@@ -187,7 +187,7 @@ header hr {
   color: #8F7E4F;
 }
 
-.projects-section__item--link {
+.arrow-link {
   font-size: 1.2rem;
   color: #8F7E4F;
   letter-spacing: 0.15rem;
@@ -275,28 +275,35 @@ header hr {
   border-top: 1px solid #8F7E4F;
 }
 
+/* ---------------------------- aboutpage ---------------------------- */
 
+/* aboutpage__section1 */
+.aboutpage__section1{
+  margin-top:25%;
+}
 
-/* projectSection */
-
-/* #homepage .section1 h1 {
+.aboutpage__section1 h2{
   letter-spacing: 0.2rem;
+  color: #8F7E4F;
+}
+.aboutpage__blockquote{
+  border-left: 3px solid #8F7E4F;
+  font-size: 1.6rem;
   line-height: 3rem;
+  font-family: 'OpenSansL', sans-serif;
+  color: #8F7E4F;
 }
-
-#homepage .section1 .home-section__text {
-  width:150px;
+.aboutpage__text h3{
+  font-family: 'Courgette', cursive;
+  color: #8F7E4F;
+  padding-bottom: 1rem;
 }
-
-#homepage .section1 h1 .smaller {
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-  line-height: 2.2rem;
+.aboutpage__text p{
+  font-family: 'OpenSansL', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
-
-#homepage .section1 p {
-  font-size: 1.7rem;
-  font-family: OpenSansL;
-  letter-spacing: 0.05rem;
-  line-height: 2.2rem;
-} */
+/* aboutpage__section2 */
+.aboutpage__section2{
+  height: 350px;
+}
