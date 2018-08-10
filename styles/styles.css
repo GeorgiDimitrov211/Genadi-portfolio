@@ -64,7 +64,7 @@ header hr {
   width: 80%;
   border: 0;
   height: 1px;
-  background-color: #1A1A1A;
+  background-color: #141414;
 }
 
 .nav-item .nav-link::after {
@@ -72,11 +72,11 @@ header hr {
   content: " ";
   width: 200px;
   margin: 15px auto 15px;
-  border-top: 0.8px solid #1A1A1A;
+  border-top: 0.8px solid #141414;
 }
 
 .icon-bar {
-  background-color: #1A1A1A;
+  background-color: #141414;
   width: 20px;
 }
 
@@ -254,6 +254,9 @@ header hr {
   padding: 1rem 0;
   border-radius: 15px;
   background-color: #8F7E4F;
+  color: #F7F7F7;
+  text-transform: uppercase;
+  font: 14px/21px 'OpenSansR', sans-serif;
 }
 
 .contact-section__form input,
@@ -269,7 +272,7 @@ header hr {
   font-size: 1.1rem;
 }
 .contact-section__form input[name="Name"] {
-  padding-top:3rem;
+  padding-top:2rem;
 }
 /* footer */
 .footer{
@@ -410,4 +413,78 @@ header hr {
 .skillspage__gallery--modal-cross {
   width:15px;
   transition: 0.3s;
+}
+
+/* ---------------------------- projectspage ---------------------------- */
+
+#projectspage h2{
+  letter-spacing: 0.2rem;
+  color: #8F7E4F;
+  margin-top:25%;
+}
+.projects__item{
+  height: 200px;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.projects__item1{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888883/genadi/projectspage/mashmo_clothing_ecommerce.jpg');
+}
+.projects__item2{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888814/genadi/projectspage/vasilena.jpg');
+}
+.projects__item3{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888817/genadi/projectspage/personal_portfolio.png');
+}
+.projects__item4{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888818/genadi/projectspage/print_design.png');
+}
+.projects__item5{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888824/genadi/projectspage/logo_design.png');
+}
+.projects__item6{
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888817/genadi/projectspage/3d_design.jpg');
+}
+
+.projects__item--text {
+  position: absolute;
+  bottom: 0;
+  font-family: 'HelveticaNeue', sans-serif;
+}
+
+.projects__item--text h4 {
+  color: #F7F7F7;
+  font-size: 1.2rem;
+}
+
+.projects__item--text p {
+  color:#8F7E4F;
+}
+
+.projects__item2 .projects__item--text h4{
+  color: #141414;
+}
+
+/* ---------------------------- contactpage ---------------------------- */
+
+#contactpage h2{
+  letter-spacing: 0.2rem;
+  color: #8F7E4F;
+  margin-top:25%;
+}
+#contactpage .contact-section{
+  margin-top:0;
+}
+
+#contactpage .contact-section h2 {
+  font-size: 2rem;
+  color: #707070;
+  margin-top:0;
+}
+
+.contact-section__text--bigger{
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size: 1.3rem;
 }
