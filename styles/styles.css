@@ -1,6 +1,10 @@
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
 }
 
 body,
@@ -13,10 +17,12 @@ html {
 strong {
   font-weight: bold;
 }
+
 .stop-scrolling {
   overflow: hidden;
   height: 100%;
 }
+
 img {
   width: 100%;
 }
@@ -58,6 +64,12 @@ button:focus {
   font-family: 'OpenSansL', sans-serif;
   font-size: 16px;
   z-index: 1;
+  padding: 0.5rem 1.2rem;
+}
+
+.navbar-nav {
+  height: 100vh;
+  padding-top: 10vh;
 }
 
 header hr {
@@ -85,6 +97,10 @@ header hr {
   width: 15px;
 }
 
+header .someIcons {
+  padding-top: 5vh;
+}
+
 .someIcons a {
   width: 30px;
 }
@@ -98,7 +114,7 @@ header hr {
 }
 
 .home-section .section1 {
-  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1532938063/genadi/homePage/genadi.png');
+  background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_591/v1532938063/genadi/homePage/genadi.png');
   background-size: cover;
 }
 
@@ -109,7 +125,8 @@ header hr {
 }
 
 .home-section__text {
-  width: 55%;
+  width: 12rem;
+  margin-left: 1.2rem;
 }
 
 .smaller {
@@ -123,6 +140,7 @@ header hr {
   font-family: 'OpenSansL', sans-serif;
   letter-spacing: 0.05rem;
   line-height: 2.2rem;
+  margin-top: 5%;
 }
 
 /* projects-section */
@@ -201,6 +219,7 @@ header hr {
   font-size: 1.2rem;
   color: #8F7E4F;
   letter-spacing: 0.15rem;
+  margin-left: 1.2rem;
 }
 
 /* testimonials-section */
@@ -213,9 +232,17 @@ header hr {
   padding-bottom: 10%;
 }
 
+.testimonials-section__item {
+  margin: 1rem 1.2rem 0 1.2rem;
+}
+
 .testimonials-section__heading p {
   color: #8F7E4F;
   font-size: 0.9rem;
+}
+
+.testimonials-section__heading img {
+  width: 50%;
 }
 
 .testimonials-section__heading h4 {
@@ -225,7 +252,11 @@ header hr {
 .testimonials-section__content p {
   color: #141414;
   font-family: 'OpenSansL', sans-serif;
-  
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1534408077/genadi/quotes.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding: 0 5%; */
 }
 
 /* contact-section */
@@ -233,6 +264,15 @@ header hr {
 .contact-section {
   margin-top: 20%;
   width: 100%;
+  padding: 0 1.2rem;
+}
+
+.contact-section a {
+  color: #8F7E4F;
+}
+
+#contactPage .contact-section:last-of-type {
+  background-color: #FDFDFD;
 }
 
 .contact-section h2 {
@@ -271,133 +311,186 @@ header hr {
   font-family: 'HelveticaNeue', sans-serif;
   font-size: 1.1rem;
 }
+
 .contact-section__form input[name="Name"] {
-  padding-top:2rem;
+  padding-top: 2rem;
 }
+
 /* footer */
-.footer{
-  margin-top:25%;
+
+.footer {
+  margin-top: 25%;
+  padding: 0 3rem;
 }
-.footer__text a{
+
+.footer__text a {
   color: #8F7E4F;
-  font-size:1rem;
+  font-size: 1rem;
 }
 
 .footer__logo,
-.footer__copyright{
+.footer__copyright {
   border-top: 1px solid #8F7E4F;
 }
 
 /* ---------------------------- aboutpage ---------------------------- */
 
 /* aboutpage__section1 */
-#aboutpage h2{
+
+#aboutpage h2 {
   letter-spacing: 0.2rem;
   color: rgb(173, 157, 114);
-  margin-top:25%;
+  margin-top: 25%;
+  padding: 0 1.2rem;
 }
 
-.aboutpage__blockquote{
+.aboutpage__blockquote {
   border-left: 3px solid #8F7E4F;
   font-size: 1.6rem;
   line-height: 3rem;
   font-family: 'OpenSansL', sans-serif;
   color: #8F7E4F;
+  margin: 0 1.2rem;
 }
-.aboutpage__text h3{
+
+.aboutpage__blockquote p {
+  width: 250px;
+  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1534408077/genadi/quotes.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem 0 1rem 2rem;
+  margin-left: 1rem;
+}
+
+.aboutpage__text {
+  padding: 0 1.2rem;
+}
+
+.aboutpage__text h3 {
   padding-bottom: 1rem;
 }
-.aboutpage__text p{
+
+.aboutpage__text p {
   font-family: 'OpenSansL', sans-serif;
   font-size: 1.1rem;
   line-height: 1.7rem;
 }
+
 /* aboutpage__section2 */
-.aboutpage__section2{
-  height: 350px;
+
+.aboutpage__section2 {
+  height: 300px;
+}
+
+.aboutpage__section2 .slick-list {
+  height: 400px;
 }
 
 /* ---------------------------- skillspage ---------------------------- */
 
 /* skillspage__section1 */
-#skillspage h2{
+
+#skillspage h2 {
   letter-spacing: 0.2rem;
   color: #8F7E4F;
-  margin-top:25%;
+  margin-top: 25%;
+  margin-left: 1.2rem;
 }
 
-.skillspage-section__heading h3{
+.skillspage__section {
+  padding: 0 1.2rem;
+}
+
+.skillspage-section__heading h3 {
   padding-bottom: 1.5rem;
 }
 
-.skillspage-section__heading img{
+.skillspage-section__heading img {
   width: 50px;
 }
-.skillspage__text p{
+
+.skillspage__text p {
   font-family: 'OpenSansL', sans-serif;
   font-size: 1.1rem;
   line-height: 1.7rem;
 }
+
 /* skillspage__section2 */
-.skillspage__section.section2{
+
+.skillspage__section.section2 {
   background-color: #FDFDFD;
 }
+
 /* skillspage__icons */
-.skillspage__icons{
+
+.skillspage__icons {
   background-color: #FDFDFD;
 }
 
-.skillspage__icons1 img{
-  width:50px;
+.skillspage__icons1 img {
+  width: 50px;
 }
 
-.skillspage__icons2 img{
-  width:35px;
+.skillspage__icons2 img {
+  width: 35px;
 }
 
-.skillspage__icons3 img{
-  width:25px;
+.skillspage__icons3 img {
+  width: 25px;
 }
 
-.skillspage__icons img{
+.skillspage__icons img {
   filter: grayscale(100%);
   opacity: 0.8;
   transition: all 0.5s ease;
 }
 
-.skillspage__icons img:hover{
+.skillspage__icons img:hover {
   filter: grayscale(0);
   opacity: 1;
   transform: scale(1.1)
 }
 
-
 /* skillspage__gallery */
-.skillspage__gallery img{
+
+.skillspage__gallery {
+  padding: 0 1.2rem;
+}
+
+.skillspage__gallery img {
   filter: grayscale(100%);
   opacity: 0.8;
   transition: all 0.5s ease;
 }
 
-.skillspage__gallery img:hover{
+.skillspage__gallery img:hover {
   filter: grayscale(0);
   opacity: 1;
 }
 
 .skillspage__gallery--modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding: 50% 0; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding: 50% 0;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
   text-align: right;
-
 }
 
 #skillspage__gallery--modal-content {
@@ -411,40 +504,51 @@ header hr {
 }
 
 .skillspage__gallery--modal-cross {
-  width:15px;
+  width: 15px;
   transition: 0.3s;
 }
 
 /* ---------------------------- projectspage ---------------------------- */
 
-#projectspage h2{
+#projectspage {
+  padding: 0 1.2rem;
+}
+
+#projectspage h2 {
   letter-spacing: 0.2rem;
   color: #8F7E4F;
-  margin-top:25%;
+  margin-top: 25%;
 }
-.projects__item{
+
+.projects__item {
   height: 200px;
-  width:100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-.projects__item1{
+
+.projects__item1 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888883/genadi/projectspage/mashmo_clothing_ecommerce.jpg');
 }
-.projects__item2{
+
+.projects__item2 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888814/genadi/projectspage/vasilena.jpg');
 }
-.projects__item3{
+
+.projects__item3 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888817/genadi/projectspage/personal_portfolio.png');
 }
-.projects__item4{
+
+.projects__item4 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888818/genadi/projectspage/print_design.png');
 }
-.projects__item5{
+
+.projects__item5 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888824/genadi/projectspage/logo_design.png');
 }
-.projects__item6{
+
+.projects__item6 {
   background-image: url('http://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_700/v1533888817/genadi/projectspage/3d_design.jpg');
 }
 
@@ -460,31 +564,213 @@ header hr {
 }
 
 .projects__item--text p {
-  color:#8F7E4F;
+  color: #8F7E4F;
 }
 
-.projects__item2 .projects__item--text h4{
+.projects__item2 .projects__item--text h4 {
   color: #141414;
 }
 
 /* ---------------------------- contactpage ---------------------------- */
 
-#contactpage h2{
+#contactpage h2 {
   letter-spacing: 0.2rem;
   color: #8F7E4F;
-  margin-top:25%;
+  margin-top: 25%;
+  padding-left: 1.2rem;
 }
-#contactpage .contact-section{
-  margin-top:0;
+
+#contactpage .contact-section:last-of-type {
+  padding: 2rem 1.2rem;
+}
+
+#contactpage .contact-section {
+  margin-top: 0;
 }
 
 #contactpage .contact-section h2 {
   font-size: 2rem;
   color: #707070;
-  margin-top:0;
+  margin-top: 0;
 }
 
-.contact-section__text--bigger{
+.contact-section__text--bigger {
   font-family: 'HelveticaNeue', sans-serif;
   font-size: 1.3rem;
+}
+
+@media screen and (min-width: 350px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* home-section  */
+  .home-section__text {
+    padding: 5% 0;
+  }
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* aboutpage__section2 */
+  .aboutpage__section2 {
+    height: 370px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 500px;
+  }
+  .aboutpage__blockquote p {
+    width: 250px;
+    background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1534408077/genadi/quotes.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 2rem 0 2rem 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* home-section  */
+  .home-section__text {
+    padding: 12% 0;
+  }
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* aboutpage__section2 */
+  .aboutpage__section2 {
+    height: 470px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 550px;
+  }
+      /* ---------------------------- projectspage ---------------------------- */
+      .projects__item {
+        height: 300px;
+      }
+}
+
+@media screen and (min-width: 450px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* testimonials-section */
+  .testimonials-section__heading img {
+    width: 30%;
+  }
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* aboutpage__section2 */
+  .aboutpage__section2 {
+    height: 520px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 600px;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* projects-section */
+  .projects-section {
+    height: 500px;
+    margin-top: 25%;
+  }
+  /* contact-section */
+  .contact-section {
+    margin-top: 20%;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* aboutpage__section2 */
+  .aboutpage__section2 {
+    height: 620px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .nav-item .nav-link::after {
+    width: 300px;
+  }
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__section2 {
+    height: 250px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 300px;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  .skillspage__gallery .gallery-img {
+    width:50%;
+  }
+  /* ---------------------------- projectspage ---------------------------- */
+  .projects__item {
+    height: 200px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* ---------------------------- contactpage ---------------------------- */
+}
+
+@media screen and (min-width: 650px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__section2 {
+    height: 300px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 350px;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
+}
+
+@media screen and (min-width: 700px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__section2 {
+    height: 350px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 400px;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
+}
+
+@media screen and (min-width: 800px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__section2 {
+    height: 400px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 450px;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
+}
+
+@media screen and (min-width: 900px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__section2 {
+    height: 450px;
+  }
+  .aboutpage__section2 .slick-list {
+    height: 500px;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
+}
+
+@media screen and (min-width: 992px) {
+  /* ---------------------------- homepage ---------------------------- */
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* ---------------------------- skillspage ---------------------------- */
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
 }

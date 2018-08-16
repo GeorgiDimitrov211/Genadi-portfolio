@@ -20,31 +20,28 @@ $(document).ready(function () {
     $('body, html').unbind('touchmove touchstart');
   });
   // Slider for projects
-  $('.projects-section--slick, .aboutpage__section2--slick').slick({
+  $('.projects-section--slick').slick({
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
+    slidesToShow: 1
   });
-  // Slider for testimonials and certificates
+    // Slider for certificates
+    $('.aboutpage__section2--slick').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      centerMode: true,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true
+          }
+        }
+      ]
+    });
+  // Slider for testimonials
   $('.testimonials-section--slick').slick({
     infinite: true,
     dots: true,
