@@ -17,7 +17,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 d-lg-flex justify-content-lg-between">
       <a class="navbar-brand logo p-0 m-0" href="index.html">
         <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532941359/genadi/homePage/icons/logo.png">
       </a>
@@ -26,24 +26,24 @@
         <img class="hamburger" src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532941359/genadi/homePage/icons/hamburger.png">
         <img class="cross" src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532945389/genadi/homePage/icons/cross.png">
       </button>
-      <div class="dropdown collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto text-center">
-          <li class="nav-item">
+      <div class="dropdown collapse navbar-collapse d-lg-flex justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mr-lg-0 p-lg-0 text-center d-lg-flex">
+          <li class="nav-item d-lg-flex align-items-lg-center mr-4">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-lg-flex align-items-lg-center mr-4">
             <a class="nav-link" href="about.html">About me</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-lg-flex align-items-lg-center mr-4">
             <a class="nav-link" href="skills.html">My skills</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-lg-flex align-items-lg-center mr-4">
             <a class="nav-link" href="projects.html">My work</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-lg-flex align-items-lg-center mr-4">
             <a class="nav-link" href="contact.html">Contact me</a>
           </li>
-          <div class="someIcons d-flex align-items-center justify-content-center mt-3">
+          <div class="someIcons d-flex align-items-center justify-content-center mt-3 mt-lg-0">
             <a href="https://www.behance.net/gdesignbg" class="m-2">
               <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/behance.png">
             </a>
@@ -58,75 +58,74 @@
   <main>
     <div id="contactpage">
       <h2>Contact me.</h2>
-      <div class="contact-section text-center py-5">
-        <form class="contact-section__form" method="POST" action="https://formspree.io/genadidesign@gmail.com">
-          <h2>Write to me</h2>
-          <input type="hidden" name="_subject" value="E-mail from portfolio" />
-          <input type="hidden" name="_next" value="https://gdimitrovd.com/portfolio/filledForm.html" />
-          <input type="hidden" name="_language" value="en" />
-          <input type="text" name="Name" required placeholder="Your full name">
-          <input type="email" name="E-mail" required placeholder="Your e-mail">
-          <input type="text" name="Subject" required placeholder="Subject">
-          <textarea type="text" rows="6" name="Message" required placeholder="Message"></textarea>
-          <button class="btn" type="submit">Send</button>
-        </form>
-        <!-- end of form -->
-      </div>
-      <!-- end of contact-section -->
-      <div class="contact-section text-center">
-        <h2>Contact information</h2>
-        <div class="contact-section__text d-flex justify-content-between">
-          <div class="text-left py-4 d-flex flex-column">
-            <span class="contact-section__text--bigger mb-4">Telephone: </span>
-            <span class="contact-section__text--bigger mb-4">Email: </span>
-            <span class="contact-section__text--bigger">Address: </span>
-          </div>
-          <div class="text-left py-4 d-flex flex-column">
-            <span class="contact-section__text--smaller mb-4">
-              <a href="">+359 895 794 733</a>
-            </span>
-            <span class="contact-section__text--smaller mb-4">
-              <a href="">genadidesign@gmail.com</a>
-            </span>
-            <span class="contact-section__text--smaller">
-              <a href="">Varna, Bulgaria</a>
-            </span>
-          </div>
+      <div class="">
+        <div class="contact-section text-center py-5 d-lg-flex justify-content-lg-center">
+          <form class="contact-section__form w-lg-50" method="POST" action="https://formspree.io/genadidesign@gmail.com">
+            <h2>Write to me</h2>
+            <input type="hidden" name="_subject" value="E-mail from portfolio" />
+            <input type="hidden" name="_next" value="https://gdimitrovd.com/portfolio/filledForm.html" />
+            <input type="hidden" name="_language" value="en" />
+            <input type="text" name="Name" required placeholder="Your full name">
+            <input type="email" name="E-mail" required placeholder="Your e-mail">
+            <input type="text" name="Subject" required placeholder="Subject">
+            <textarea type="text" rows="6" name="Message" required placeholder="Message"></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+          <!-- end of form -->
         </div>
-        <!-- end of contact-section__text -->
+        <!-- end of contact-section -->
+        <div class="contact-section text-center mt-lg-5">
+          <h2>Contact information</h2>
+          <div class="contact-section__text justify-content-between">
+            <div class="py-4 pb-lg-0">
+              <div class="contact-section__text--smaller mb-4">
+                <a href="">+359 895 794 733</a>
+              </div>
+              <div class="contact-section__text--smaller mb-4">
+                <a href="">genadidesign@gmail.com</a>
+              </div>
+              <div class="contact-section__text--smaller">
+                <a href="">Varna, Bulgaria</a>
+              </div>
+            </div>
+          </div>
+          <!-- end of contact-section__text -->
+        </div>
+        <!-- end of contact-section -->
       </div>
-      <!-- end of contact-section -->
     </div>
     <!-- end of contactpage -->
   </main>
-  <footer class="footer mt-5">
-    <div class="footer__logo row justify-content-center pt-4 pb-5">
-      <a class="logo" href="index.html">
-        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532941359/genadi/homePage/icons/logo.png">
-      </a>
-    </div>
-    <!-- end of footer__logo -->
-    <div class="footer__text row justify-content-center text-center">
-      <p>If you like
-        <a href="projects.html">My work</a>, you can
-        <a href="contact.html">Contact me</a> and start working together.</p>
-    </div>
-    <!-- end of footer__text -->
-    <div class="someIcons row justify-content-center align-items-center pt-4 pb-5">
-      <a href="https://www.behance.net/gdesignbg" class="m-2">
-        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/behance.png">
-      </a>
-      <a href="https://www.instagram.com/gdesignbg/" class="m-2">
-        <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/instagram.png">
-      </a>
-    </div>
-    <!-- end of someIcons -->
-    <div class="footer__copyright row justify-content-center text-center py-4 mx-3">
-      <p>Design by Genadi Georgiev
-        <br> Copyright 2018</p>
-    </div>
-    <!-- end of footer__copyright -->
-  </footer>
+  <footer class="footer text-center">
+      <div class="footer__part1 d-lg-flex justify-content-lg-between py-lg-5">
+        <div class="footer__logo row justify-content-center pt-4 pt-lg-0 pb-5 pb-lg-0">
+          <a class="logo" href="index.html">
+            <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532941359/genadi/homePage/icons/logo.png">
+          </a>
+        </div>
+        <!-- end of footer__logo -->
+        <div class="footer__text text-center row justify-content-center ml-lg-5">
+          <p class="mb-lg-0">If you like
+            <a href="projects.html">My work</a>, you can
+            <a href="contact.html">Contact me</a> and start working together.</p>
+        </div>
+        <!-- end of footer__text -->
+        <div class="someIcons row justify-content-center align-items-center pt-4 pt-lg-0 pb-5 pb-lg-0">
+          <a href="https://www.behance.net/gdesignbg" class="m-2">
+            <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/behance.png">
+          </a>
+          <a href="https://www.instagram.com/gdesignbg/" class="m-2">
+            <img src="https://res.cloudinary.com/dndvaqitq/image/upload/v1532944215/genadi/homePage/icons/instagram.png">
+          </a>
+        </div>
+        <!-- end of someIcons -->
+      </div>
+      <div class="footer__copyright row justify-content-center text-center py-4">
+        <p>Design by Genadi Georgiev
+          <br> Copyright 2018</p>
+      </div>
+      <!-- end of footer__copyright -->
+    </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
