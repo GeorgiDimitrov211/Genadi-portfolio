@@ -256,10 +256,6 @@ header .someIcons {
 .testimonials-section__content p {
   color: #141414;
   font-family: 'OpenSansL', sans-serif;
-  background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/v1534408077/genadi/quotes.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 270px;
 }
 
