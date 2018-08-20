@@ -12,6 +12,7 @@ html {
   font: 14px/21px 'OpenSansR', sans-serif;
   width: 100%;
   overflow-x: hidden;
+  touch-action: manipulation;
 }
 
 strong {
