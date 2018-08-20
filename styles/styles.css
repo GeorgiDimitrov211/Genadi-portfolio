@@ -84,7 +84,7 @@ header hr {
   display: block;
   content: " ";
   width: 200px;
-  margin: 15px auto 15px;
+  margin: 20px auto 20px;
   border-top: 0.8px solid #141414;
 }
 
@@ -950,7 +950,7 @@ header .someIcons {
   /* ---------------------------- homepage ---------------------------- */
   /* home section */
   .home-section{
-    padding-top:5%;
+    padding-top:6%;
   }
   .home-section .section1 {
     background-size: cover;
