@@ -486,7 +486,7 @@ header .someIcons {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding: 50% 0;
+  padding-top: 50%;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -610,10 +610,10 @@ header .someIcons {
 }
 
 @media screen and (min-width: 350px) {
-        /* footer */
-        .footer__text p{
-          width: 290px;
-        }
+  /* footer */
+  .footer__text p {
+    width: 290px;
+  }
   /* ---------------------------- homepage ---------------------------- */
   /* home-section  */
   .home-section__text {
@@ -723,7 +723,6 @@ header .someIcons {
     padding: 0.7rem 3rem;
   }
   /* ---------------------------- homepage ---------------------------- */
-  
   /* home section */
   .home-section .section1 {
     background-image: url('https://res.cloudinary.com/dndvaqitq/image/upload/c_scale,w_800/v1532938063/genadi/homePage/genadi.png');
@@ -739,7 +738,6 @@ header .someIcons {
   .contact-section {
     padding: 0 3rem;
   }
-
   /* ---------------------------- aboutpage ---------------------------- */
   #aboutpage h2 {
     padding: 0 3rem;
@@ -771,9 +769,8 @@ header .someIcons {
   }
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding: 40% 0;
+    padding-top: 40%;
   }
-  
   /* ---------------------------- projectspage ---------------------------- */
   #projectspage h2 {
     padding: 0 3rem;
@@ -793,14 +790,14 @@ header .someIcons {
 
 @media screen and (min-width: 650px) {
   /* footer */
-  .footer{
-    margin-top:15%;
+  .footer {
+    margin-top: 15%;
   }
   /* ---------------------------- homepage ---------------------------- */
   /* home section */
   .home-section__text {
     padding: 15% 0;
-}
+  }
   /* testimonials-section */
   .testimonials-section {
     height: 450px;
@@ -812,6 +809,10 @@ header .someIcons {
   .aboutpage__section2 .slick-list {
     height: 350px;
   }
+  .skillspage__gallery--modal {
+    /* Sit on top */
+    padding-top: 25%;
+  }
   /* ---------------------------- skillspage ---------------------------- */
   /* ---------------------------- projectspage ---------------------------- */
   /* ---------------------------- contactpage ---------------------------- */
@@ -819,18 +820,15 @@ header .someIcons {
 
 @media screen and (min-width: 700px) {
   /* ---------------------------- homepage ---------------------------- */
-  
   /* home section */
-
   .home-section {
     padding-top: 15%;
   }
-
-  .home-section__text h1{
-    font-size:3rem;
+  .home-section__text h1 {
+    font-size: 3rem;
   }
-  .home-section .section1 p{
-    font-size:1.7rem;
+  .home-section .section1 p {
+    font-size: 1.7rem;
   }
   /* projects section */
   .projects-section {
@@ -859,8 +857,8 @@ header .someIcons {
     margin-top: 15%;
   }
   /* footer */
-  .footer{
-    margin-top:15%;
+  .footer {
+    margin-top: 15%;
   }
   .footer__copyright {
     margin: 0 10rem;
@@ -868,7 +866,6 @@ header .someIcons {
 }
 
 @media screen and (min-width: 800px) {
-
   /* ---------------------------- homepage ---------------------------- */
   /* home section */
   .home-section__text {
@@ -878,10 +875,10 @@ header .someIcons {
   .testimonials-section {
     height: 500px;
   }
-/* projects section */
+  /* projects section */
   .projects-section {
     height: 600px;
-}
+  }
   /* ---------------------------- aboutpage ---------------------------- */
   .aboutpage__section2 {
     height: 400px;
@@ -892,7 +889,7 @@ header .someIcons {
   /* ---------------------------- skillspage ---------------------------- */
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding: 20% 0;
+    padding-top: 20%;
   }
   /* ---------------------------- projectspage ---------------------------- */
   /* ---------------------------- contactpage ---------------------------- */
@@ -910,47 +907,47 @@ header .someIcons {
   .aboutpage__section2 .slick-list {
     height: 500px;
   }
-
   /* ---------------------------- skillspage ---------------------------- */
   /* ---------------------------- projectspage ---------------------------- */
   /* ---------------------------- contactpage ---------------------------- */
 }
 
 @media screen and (min-width: 992px) {
+  .slick-slide {
+    width: 270px;
+  }
   .projects-section__item.slick-slide {
     transform: scale(1);
   }
   /* header */
   header .someIcons {
     padding-top: 0;
-}
-
-.navbar-collapse{
-  justify-content: flex-end;
-  flex-grow:0!important;
-}
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+    flex-grow: 0 !important;
+  }
   .navbar-nav {
     height: 5vh;
   }
-  .nav-item .nav-link::after{
-    display:none;
+  .nav-item .nav-link::after {
+    display: none;
   }
   /* footer */
   .footer {
     margin-top: 10%;
     padding: 0 3.5rem;
-}
-.footer__copyright {
-  margin: 0 15rem;
-}
-.footer__part1{
-  padding: 0 4rem;
-}
-
+  }
+  .footer__copyright {
+    margin: 0 15rem;
+  }
+  .footer__part1 {
+    padding: 0 4rem;
+  }
   /* ---------------------------- homepage ---------------------------- */
   /* home section */
-  .home-section{
-    padding-top:6%;
+  .home-section {
+    padding-top: 6%;
   }
   .home-section .section1 {
     background-size: cover;
@@ -962,13 +959,12 @@ header .someIcons {
     padding: 15% 0;
     margin-left: -20%;
   }
-  .home-section__text h1{
-    font-size:4rem;
+  .home-section__text h1 {
+    font-size: 4rem;
     line-height: 6rem;
   }
-
-  .home-section .section1 p{
-    font-size:2rem;
+  .home-section .section1 p {
+    font-size: 2rem;
   }
   .home-section__text p br {
     display: none;
@@ -977,40 +973,40 @@ header .someIcons {
   .projects-section {
     height: 300px;
     padding: 0 10rem;
-      margin-top: 10%;
+    margin-top: 10%;
   }
-  .projects-section__item{
+  .projects-section__item {
     border-radius: 0;
-    margin:0.5rem;
+    margin: 0.5rem;
   }
   /* testimonials section */
-  .testimonials-section{
-    margin-top:12%;
-    padding-top:4%;
+  .testimonials-section {
+    margin-top: 12%;
+    padding-top: 4%;
     height: 400px;
   }
   .testimonials-section__content p {
     width: 420px;
   }
   /* contact section */
-  .contact-section{
-    margin-top:10%
+  .contact-section {
+    margin-top: 10%
   }
   /* ---------------------------- aboutpage ---------------------------- */
-  .aboutpage__section2{
+  .aboutpage__section2 {
     height: 400px;
     margin: 0 10rem;
   }
-  #aboutpage .arrow-link{
+  #aboutpage .arrow-link {
     margin-left: 6rem;
   }
   /* ---------------------------- skillspage ---------------------------- */
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding: 15% 10%;
+    padding: 15% 10% 0 10%;
   }
   /* ---------------------------- projectspage ---------------------------- */
-  .projects__container{
+  .projects__container {
     justify-content: center;
   }
   .projects__item {
@@ -1023,8 +1019,87 @@ header .someIcons {
   }
   #contactpage .contact-section:last-of-type {
     padding: 0;
+  }
+  #contactpage .contact-section h2 {
+    padding-left: 0;
+  }
 }
-#contactpage .contact-section h2 {
-  padding-left: 0;
+
+@media screen and (min-width: 1200px) {
+  /* footer */
+  /* ---------------------------- homepage ---------------------------- */
+  /* home section */
+  /* projects section */
+  /* testimonials-section */
+  /* ---------------------------- aboutpage ---------------------------- */
+  .aboutpage__text {
+    padding: 0px 7rem;
+  }
+  #aboutpage .arrow-link {
+    margin-left: 10rem;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  .skillspage__gallery--modal {
+    /* Sit on top */
+    padding-top: 10%;
+  }
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
 }
+
+@media screen and (min-width: 1300px) {
+  /* footer */
+  .footer {
+    margin-top: 5%;
+  }
+  /* ---------------------------- homepage ---------------------------- */
+  /* home section */
+  /* projects section */
+  .projects-section {
+    height: 350px;
+  }
+  /* testimonials-section */
+  /* contact-section */
+  .contact-section {
+    margin-top: 5%;
+  }
+  /* ---------------------------- aboutpage ---------------------------- */
+  #aboutpage h2 {
+    margin-top: 10%;
+  }
+  /* ---------------------------- skillspage ---------------------------- */
+  #skillspage h2 {
+    margin-top: 10%;
+  }
+  .skillspage__gallery--modal {
+    /* Sit on top */
+    padding-top: 10%;
+  }
+  /* ---------------------------- projectspage ---------------------------- */
+  #projectspage h2 {
+    margin-top: 10%;
+  }
+  /* ---------------------------- contactpage ---------------------------- */
+  #contactpage h2 {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* footer */
+  /* ---------------------------- homepage ---------------------------- */
+  /* home section */
+  /* projects section */
+  .projects-section {
+    height: 400px;
+  }
+  /* testimonials-section */
+  /* ---------------------------- aboutpage ---------------------------- */
+  /* ---------------------------- skillspage ---------------------------- */
+  .skillspage__gallery--modal {
+    /* Sit on top */
+    padding: 10% 15% 0 15%;
+  }
+  /* ---------------------------- projectspage ---------------------------- */
+  /* ---------------------------- contactpage ---------------------------- */
 }
