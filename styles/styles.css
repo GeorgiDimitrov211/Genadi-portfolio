@@ -583,6 +583,9 @@ header .someIcons {
 
 /* ---------------------------- contactpage ---------------------------- */
 
+#contactMe footer{
+  margin:0;
+}
 #contactpage h2 {
   letter-spacing: 0.2rem;
   color: #8F7E4F;
@@ -769,7 +772,7 @@ header .someIcons {
   }
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding-top: 40%;
+    padding-top: 30vh;
   }
   /* ---------------------------- projectspage ---------------------------- */
   #projectspage h2 {
@@ -997,13 +1000,17 @@ header .someIcons {
     height: 400px;
     margin: 0 10rem;
   }
+  .aboutpage__section2--slick .slick-dots{
+    bottom: 60px;
+  }
+
   #aboutpage .arrow-link {
     margin-left: 6rem;
   }
   /* ---------------------------- skillspage ---------------------------- */
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding: 15% 10% 0 10%;
+    padding: 10vh 10vw;
   }
   /* ---------------------------- projectspage ---------------------------- */
   .projects__container {
@@ -1039,10 +1046,6 @@ header .someIcons {
     margin-left: 10rem;
   }
   /* ---------------------------- skillspage ---------------------------- */
-  .skillspage__gallery--modal {
-    /* Sit on top */
-    padding-top: 10%;
-  }
   /* ---------------------------- projectspage ---------------------------- */
   /* ---------------------------- contactpage ---------------------------- */
 }
@@ -1071,10 +1074,6 @@ header .someIcons {
   #skillspage h2 {
     margin-top: 10%;
   }
-  .skillspage__gallery--modal {
-    /* Sit on top */
-    padding-top: 10%;
-  }
   /* ---------------------------- projectspage ---------------------------- */
   #projectspage h2 {
     margin-top: 10%;
@@ -1096,10 +1095,6 @@ header .someIcons {
   /* testimonials-section */
   /* ---------------------------- aboutpage ---------------------------- */
   /* ---------------------------- skillspage ---------------------------- */
-  .skillspage__gallery--modal {
-    /* Sit on top */
-    padding: 10% 15% 0 15%;
-  }
   /* ---------------------------- projectspage ---------------------------- */
   /* ---------------------------- contactpage ---------------------------- */
 }
