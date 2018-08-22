@@ -1010,7 +1010,7 @@ header .someIcons {
   /* ---------------------------- skillspage ---------------------------- */
   .skillspage__gallery--modal {
     /* Sit on top */
-    padding: 10vh 10vw;
+    padding: 5vh 20vw;
   }
   /* ---------------------------- projectspage ---------------------------- */
   .projects__container {
